@@ -2,7 +2,7 @@ provider "aws" {
   profile = "ram"
   region = "us-east-1"
 }
-resource "aws_s3_bucket" "b" {
+resource "aws_s3_bucket" "m" {
   bucket = "buck1.0"
   acl = "private"
 }
